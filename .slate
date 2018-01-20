@@ -1,0 +1,6 @@
+alias full move screenOriginX;screenOriginY screenSizeX;screenSizeY
+bind up:cmd;ctrl ${full}
+bind left:cmd;ctrl resize -10% +0
+bind right:cmd;ctrl resize +10% +0
+bind left:cmd;alt nudge -10% +0
+bind right:cmd;alt nudge +10% +0
